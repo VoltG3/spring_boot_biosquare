@@ -8,3 +8,5 @@ CREATE TABLE biosquares (
     landmap VARCHAR(39),
     PRIMARY KEY (id)
 );
+
+create sequence biosquares_id start with 1000;
